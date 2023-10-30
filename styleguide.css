@@ -1,0 +1,7 @@
+:root {
+  --millybar-yellow: rgba(250, 234, 24, 1);
+  --navy-blue: rgba(2, 22, 137, 1);
+  --primary-blue-color: rgba(3, 148, 195, 1);
+  --primary-blue-drop-shadow: 2px 2px 0px 0px rgba(3, 148, 195, 1);
+  --navy-blue-drop-shadow: 2px 2px 0px 0px rgba(2, 22, 137, 1);
+}

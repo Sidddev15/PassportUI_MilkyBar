@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./static/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="edit-page">
+      <div class="main-div">
+        <div class="overlap">
+          <div class="shutter-button">
+            <div class="overlap-group">
+              <img
+                id="fallback"
+                class="vector"
+                src="img/vector.svg"
+              />
+              <img
+                id="fallback"
+                onclick="openCamera()"
+                class="img"
+                src="img/vector-1.svg"
+              />
+            </div>
+          </div>
+          <a href="index.html"
+            ><img class="close-btn" src="img/close-btn.svg"
+          /></a>
+        </div>
+        <div class="div-wrapper">
+          <div class="text-wrapper">
+            <form>
+              <input
+                type="text"
+                id="nameInput"
+                name="name"
+                placeholder="Enter your first name"
+                value=""
+              />
+              <button class="button" type="submit">Save</button>
+            </form>
+          </div>
+          <div class="video-container" id="videoContainer">
+            <!-- Video element will be appended here dynamically -->
+          </div>
+        </div>
+
+        <!-- <section id="downloadSection">
+          <p><a id="downloadLink" href="#" download="userImage.png">Download</a></p>
+      </section> -->
+      
+
+
+      </div>
+    </div>
+  </body>
+</html>
